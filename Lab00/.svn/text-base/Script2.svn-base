@@ -1,0 +1,13 @@
+#! /bin/bash
+#
+#$Author$
+#$Date$
+#$HeadURL$
+#$Revision$
+Input=$1
+while (( $Input != 0 ))
+do
+    echo $Input
+    let Input=Input-1   
+done
+    echo $Input

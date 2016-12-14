@@ -1,0 +1,16 @@
+#! /bin/bash
+#
+#$Author: ee364h10 $
+#$Date: 2016-08-24 10:48:55 -0400 (Wed, 24 Aug 2016) $
+#$HeadURL: svn+ssh://ece364sv@ecegrid-thin1/home/ecegrid/a/ece364sv/svn/F16/students/ee364h10/Lab00/Script3 $
+#$Revision: 91791 $
+Input=$1
+while (( $Input != 0 ))
+do
+    if (( $Input%3==0 ))
+	then
+          echo $Input
+        fi
+    let Input=Input-1   
+done
+    echo $Input
