@@ -1,0 +1,15 @@
+Prelab06/ee364h10/
+
+[('func1', ['a', 'b']), ('__func_2_', ['a', 'b']), ('F3', ['p1', 'p2', 'p3'])]
+
+------------------------------------------------------------------------------------------
+FUNCTION                   | DESCRIPTION                | COMMENTS                   | POINTS    
+------------------------------------------------------------------------------------------
+extractFloats                                             Test case FAILED.            0         
+findFunctions                                             Test case FAILED.            0         
+getQueryParameters                                        Test case passed.            4         
+getUrlParts                                               Test case passed.            4         
+getWords                                                  Test case FAILED.            0         
+------------------------------------------------------------------------------------------
+
+Total Score = 8

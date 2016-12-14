@@ -1,0 +1,14 @@
+invalid1.sud
+invalid2.sud
+open1.sud
+open2.sud
+solved1.sud
+solved2.sud
+valid.sud
+invalid1.sud
+invalid2.sud
+open1.sud
+open2.sud
+solved1.sud
+solved2.sud
+valid.sud

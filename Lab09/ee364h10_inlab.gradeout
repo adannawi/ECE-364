@@ -1,0 +1,48 @@
+Lab09/ee364h10
+
+
+----------------------------------------------------------------------------------------------------
+FUNCTION                              | DESCRIPTION                | COMMENTS                   | POINTS    
+----------------------------------------------------------------------------------------------------
+Add                                    Add New Test                 Test case passed.            3/3       
+Add                                    Add Present Test             Test case passed.            3/3       
+AddOrUpdate                            Add Or Update New Test       Test case passed.            3/3       
+AddOrUpdate                            Add Or Update Present Test   Function failed to run.      0/2       
+Assignment                             Assign New Test              Test case passed.            3/3       
+Assignment                             Update Present Test          Function failed to run.      0/3       
+Count                                                               Test case passed.            3/3       
+EntryEquality                          False Equality               Test case passed.            1/1       
+EntryEquality                          True Equality                Test case passed.            1/1       
+EntryInitializer                       Invalid First Argument       Test case passed.            1/1       
+EntryInitializer                       Invalid Second Argument      Test case passed.            1/1       
+EntryInitializer                       Invalid Third Argument       Test case passed.            1/1       
+EntryStringFunction                                                 Test case passed.            2/2       
+LookupInitializer                      Invalid Initializer Test     Test case passed.            1/1       
+LookupInitializer                      Valid Initializer Test       Test case passed.            2/2       
+LookupStringFunction                                                Test case FAILED.            0/2       
+Remove                                 Remove New Test              Test case passed.            2/2       
+Remove                                 Remove Present Test          Test case passed.            3/3       
+Retrieval                              Retrieve Integer Test        Function failed to run.      0/3       
+Retrieval                              Retrieve Missing Integer Test Test case passed.            3/3       
+Retrieval                              Retrieve Missing Tuple Test  Test case passed.            3/3       
+Retrieval                              Retrieve Tuple Test          Test case FAILED.            0/3       
+Update                                 Update New Test              Test case passed.            3/3       
+Update                                 Update Present Test          Test case passed.            3/3       
+getFloatData                           Tag 7ZW Test                 Test case passed.            3/3       
+getFloatData                           Tag C50 Test                 Test case passed.            3/3       
+getFloatData                           Tag ETL Test                 Test case passed.            3/3       
+getFloatData                           Tag IDH Test                 Test case passed.            3/3       
+getFloatData                           Tag TMK Test                 Test case passed.            3/3       
+getOptions                             Group 1 Test                 Test case FAILED.            0/3       
+getOptions                             Group 2 Test                 Test case FAILED.            0/3       
+getOptions                             Group 3 Test                 Test case FAILED.            0/3       
+getOptions                             Group 4 Test                 Test case FAILED.            0/3       
+getOptions                             Group 5 Test                 Test case FAILED.            0/3       
+getScientificData                      Tag 7ZW Test                 Test case passed.            3/3       
+getScientificData                      Tag C50 Test                 Test case passed.            3/3       
+getScientificData                      Tag ETL Test                 Test case passed.            3/3       
+getScientificData                      Tag IDH Test                 Test case passed.            3/3       
+getScientificData                      Tag TMK Test                 Test case passed.            3/3       
+----------------------------------------------------------------------------------------------------
+
+Total Score = 72

@@ -1,0 +1,62 @@
+#! /bin/bash
+#
+#$Author: ee364h10 $
+#$Date: 2016-08-26 18:10:01 -0400 (Fri, 26 Aug 2016) $
+#$HeadURL: svn+ssh://ece364sv@ecegrid-thin1/home/ecegrid/a/ece364sv/svn/F16/students/ee364h10/Prelab01/svncheck.bash $
+#$Revision: 91970 $
+
+#Check if file is in SVN or not
+#If in SVN and executable then good
+#If in SVN and not executable, svn propset svn:executable ON <filename>
+#If not in SVN and executable, add the file to SVN but do not commit
+#If not in SVN and not executable, prompt user and make executable if 'y' (chmod)
+#If not in SVN and does not exist, print error
+
+#while read line
+for line in $(cat file_list)
+do
+  #Check if the file even exists in the first place
+  if [[ -e $line ]]
+  then
+      #If it exists, check its status in SVN
+      STATUS=$(svn status $line | head -c 1)
+      if [[ "x$STATUS" = "x" ]]
+      then
+	  # echo "Status of $line is $STATUS"
+	   #Exists and is in SVN
+	   if [[ !(-x $line) ]]
+	   then
+	       svn propset svn:executable ON $line
+	   fi
+       else
+	   #Exists but is not in SVN
+	   if [[ !(-x $line) ]]
+	   then
+	       echo  "Would you like to make $line executable? (y/n)"
+	       read input </dev/tty
+	       if [[ "$input" = "y" ]]
+	       then
+		   chmod 700 $line
+		   echo "Enabled execute permissions on $line"
+		   svn add $line
+	       fi
+	  else
+	       if [[ !("$STATUS" = "A") ]]
+	       then
+		   svn add $line
+	       fi
+	  fi
+       fi
+   else
+      #Does not exist
+      #Check SVN, it might be in there
+      CHECK=$(svn status $line | head -c 1)
+      if [[ !("$CHECK" = "A") ]]
+      then
+	  echo "Error: File $line appears to not exist here or in svn"
+      fi
+   fi
+done < file_list
+
+svn commit -m "Auto-committing code"
+

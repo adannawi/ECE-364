@@ -1,0 +1,55 @@
+#####################
+ee364h10/collect_stats.bash
+#####################
+1a. Input validation: Too many arguments; error msg (1pt)
+  passed.
+
+1b. Input validation: Too many arguments; return code (2pts)
+  passed.
+
+2a. Input validation: invalid filename; error msg (1pts)
+  passed.
+
+2b. Input validation: invalid filename; return code (2pts)
+  passed.
+
+3a. Testing Gymnastics with olympics.txt (3pts)
+  passed.
+
+3b. Testing Swimming with olympics.txt (4pts)
+  passed.
+
+4a. Testing Basketball with olympics2.txt (9pts)
+  passed.
+
+4b. Testing Cycling with olympics2.txt (9pts)
+  passed.
+
+4c. Testing Volleyball with olympics2.txt (9pts)
+  passed.
+
+#####################
+ee364h10/mini_shell.bash
+#####################
+
+1. Testing command: quit (5pts)
+  passed.
+
+2a. Testing command: hello (5pts)
+  passed.
+
+2b. Testing no hard-coding username in command: hello (5pts)
+  passed.
+
+3. Testing invalid command: foo (5pts)
+  passed.
+
+4. Testing command: compile (10pts)
+  passed.
+
+5. Testing command: run (10pts)
+  passed.
+
+collect_stats.bash 	 = 40/40
+mini_shell.bash 	 = 40/40
+Total score		 = 80/80

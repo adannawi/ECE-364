@@ -1,0 +1,25 @@
+-----------------------------------------------------------------------------------------------------------------------
+FUNCTION                         | DESCRIPTION                   | COMMENTS                  | POINTS    
+-----------------------------------------------------------------------------------------------------------------------
+getAccessControlByLogin          Dictionary Key 1 Test          Test case passed.               5
+getAccessControlByLogin          Dictionary Key 2 Test          Test case passed.               5
+getAccessControlByController     Dictionary Key 1 Test          Test case passed.               5
+getAccessControlByController     Dictionary Key 2 Test          Test case passed.               5
+getActionsOfController           Dictionary Key 1 Test          Test case passed.               5
+getActionsOfController           Dictionary Key 2 Test          Test case passed.               5
+processRequests                  Line 00 Test                   Test case passed.               5
+processRequests                  Line 10 Test                   Test case passed.               5
+isAccessAllowedFor               Valid User 1 Test              Test case passed.               4
+isAccessAllowedFor               Valid User 2 Test              Test case passed.               4
+isAccessAllowedFor               Invalid User Test              Test case passed.               2
+getRequestsBy                    Valid User 1 Test              Test case passed.               4
+getRequestsBy                    Valid User 2 Test              Test case passed.               4
+getRequestsBy                    Invalid User Test              Test case passed.               2
+aggregateUserRequests            User 1 Test                    Test case passed.               4
+aggregateUserRequests            User 2 Test                    Test case passed.               4
+aggregateUserRequests            Total Count Test               Test case passed.               2
+aggregateControllerRequests      Controller 1 Test              Test case failed.               0
+aggregateControllerRequests      Controller 2 Test              Test case failed.               0
+aggregateControllerRequests      Total Count Test               Test case failed.               0
+----------------------------------------------------------------------------------------------------------------------------
+Total Score = 70

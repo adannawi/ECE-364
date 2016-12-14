@@ -1,0 +1,34 @@
+Lab03/inlab/ee364h10
+
+2
+1
+
+------------------------------------------------------------------------------------------
+FUNCTION                  | DESCRIPTION               | COMMENTS                  | POINTS    
+------------------------------------------------------------------------------------------
+convertToBoolean            Below-bound Input Test      Test case passed.           1         
+convertToBoolean            Non-Integer Input Test      Test case passed.           1         
+convertToBoolean            Normal Input Test           Test case passed.           7         
+convertToBoolean            Over-bound Input Test       Test case passed.           1         
+convertToInteger            Empty List Test             Test case passed.           1         
+convertToInteger            Invalid List Test           Test case passed.           1         
+convertToInteger            Non-List Test               Test case passed.           1         
+convertToInteger            Normal Input Test           Test case passed.           7         
+getDoublePalindromes                                    Test case passed.           10        
+getElementsAt                                           Testcase FAILED.            0         
+getRowSum                                               Test case passed.           10        
+getWords                    Multiple Match Test         Test case passed.           4         
+getWords                    No Match Test               Test case passed.           3         
+getWords                    Single Match Test           Test case passed.           3         
+isSubListOf                 False Sublist Test          Testcase FAILED.            0         
+isSubListOf                 Invalid List Size Test      Test case passed.           1         
+isSubListOf                 Non-List Test               Test case passed.           1         
+isSubListOf                 True Sublist Test           Test case passed.           4         
+scaleVector                 Empty List Test             Testcase FAILED.            0         
+scaleVector                 Invalid List Test           Test case passed.           1         
+scaleVector                 Invalid Scalar Test         Test case passed.           1         
+scaleVector                 Normal Input Test           Test case passed.           7         
+------------------------------------------------------------------------------------------
+
+getElementsAt Bonus = 0
+Total Score = 65

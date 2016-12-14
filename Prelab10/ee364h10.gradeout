@@ -1,0 +1,20 @@
+Prelab10/ee364h10/
+
+
+------------------------------------------------------------------------------------------
+FUNCTION                  | DESCRIPTION               | COMMENTS                  | POINTS    
+------------------------------------------------------------------------------------------
+clear                                                   Test case passed.           1/1       
+decimalDigits                                           Test case FAILED.           0/1       
+leadingZero                                             Test case passed.           1/1       
+math                        addition                    Test case passed.           3/3       
+math                        division                    Test case passed.           3/3       
+math                        multiplication              Test case passed.           3/3       
+math                        subtraction                 Test case passed.           3/3       
+maxDigits                                               Test case passed.           1/1       
+successive                                              Test case passed.           2/2       
+thousandsSeparator          thousands checked           Test case passed.           1/1       
+thousandsSeparator          thousands unchecked         Test case passed.           1/1       
+------------------------------------------------------------------------------------------
+
+Total Score = 19

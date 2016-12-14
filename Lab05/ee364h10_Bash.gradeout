@@ -1,0 +1,28 @@
+Bash_Part1.bash
+
+-------------------------------------------------------
+Function   | Comments                       | Points    
+-------------------------------------------------------
+func_a                                        3/3         
+func_b                                        3/3         
+func_c       must redirect stdout             0/3         
+func_d                                        0/8         
+func_e                                        0/8         
+
+Total for Bash_Part1.bash = 6
+
+
+assign_grades.bash
+
+---------------------------------------------------------------
+Testcase                       | Comments             | Points    
+---------------------------------------------------------------
+Usage message                    Test case FAILED.      0/3         
+Return code with 3 args          Test case FAILED.      0/2         
+Course files created             Test case passed.      5/5         
+Call to get_letter_grade         Test case passed.      2/2         
+Content of EE course files       Test case FAILED.      0/4         
+Content of ME course files       Test case FAILED.      0/4         
+Sorting of course files          Test case FAILED.      0/5         
+
+Total for assign_grades.bash = 7

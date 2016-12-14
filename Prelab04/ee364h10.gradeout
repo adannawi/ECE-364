@@ -1,0 +1,21 @@
+Prelab04/ee364h10/
+
+New York
+{'Lemons': 38, 'Cauliflower': 50, 'Garlic': 20, 'Limes': 33, 'Carrots': 58, 'Berries': 23, 'Onions': 37, 'Grapes': 68, 'Broccoli': 45, 'Apples': 17, 'Lettuce': 43, 'Celery': 34, 'Melons': 27, 'Bananas': 1, 'Asparagus': 37, 'Peaches': 48, 'Plums': 30, 'Mushrooms': 41, 'Corn': 35, 'Nectarines': 49, 'Pears': 15, 'Tomatoes': 39, 'Cabbage': 35, 'Oranges': 2}
+
+------------------------------------------------------------------------------------------
+FUNCTION                   | DESCRIPTION                | COMMENTS                   | POINTS    
+------------------------------------------------------------------------------------------
+getPossibleMatches                                        Test case passed.            2         
+getPurchaseReport                                         Test case passed.            2         
+getStateName                                              Test case FAILED.            0         
+getTotalSold                                              Test case FAILED.            0         
+getZipCodes                                               Test case passed.            2         
+printNames                                                Test case passed.            2         
+printSortedMap                                            Function failed to run.      0         
+scaleSet                                                  Test case passed.            2         
+switchNames                                               Test case FAILED.            0         
+uniqueLetters                                             Test case passed.            2         
+------------------------------------------------------------------------------------------
+
+Total Score = 12

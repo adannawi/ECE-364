@@ -1,0 +1,40 @@
+Lab08/inlab/ee364h10
+
+
+------------------------------------------------------------------------------------------
+FUNCTION                   | DESCRIPTION                | COMMENTS                   | POINTS    
+------------------------------------------------------------------------------------------
+isIdValid                    %U3                          Test case passed.            2/2       
+isIdValid                    *99_                         Test case passed.            1/1       
+isIdValid                    1Superior2                   Test case passed.            2/2       
+isIdValid                    U1                           Test case passed.            2/2       
+isIdValid                    What?                        Test case passed.            1/1       
+isIdValid                    _U2_                         Test case passed.            2/2       
+mapFile                                                   Test case FAILED.            0/20      
+mapHardwareLine              Bad Assignment               Test case passed.            2/2       
+mapHardwareLine              Extra Closing Parenthesis    Test case passed.            1/1       
+mapHardwareLine              Extra Parentheses            Test case passed.            2/2       
+mapHardwareLine              Invalid Names                Test case passed.            2/2       
+mapHardwareLine              Missing Component            Test case passed.            2/2       
+mapHardwareLine              Missing Instance             Test case passed.            2/2       
+mapHardwareLine              Valid Line 1                 Test case passed.            2/2       
+mapHardwareLine              Valid Line 2                 Test case passed.            2/2       
+parseAssignment              .$99(bin12)                  Test case passed.            2/2       
+parseAssignment              .B2(n32)                     Test case passed.            3/3       
+parseAssignment              .D(Q)                        Test case passed.            3/3       
+parseAssignment              .Linux(what?)                Test case passed.            2/2       
+parseAssignment              .StarWars((VII))             Test case passed.            2/2       
+parseAssignment              .ZZ3(p21                     Test case passed.            3/3       
+parseAssignment              .foo(_88_)                   Test case passed.            3/3       
+parseAssignment              AA(Here)                     Test case passed.            2/2       
+parseLine                    Bad Assignment               Test case passed.            2/2       
+parseLine                    Extra Closing Parenthesis    Test case passed.            1/1       
+parseLine                    Extra Parentheses            Test case passed.            2/2       
+parseLine                    Invalid Names                Test case passed.            2/2       
+parseLine                    Missing Component            Test case passed.            2/2       
+parseLine                    Missing Instance             Test case passed.            2/2       
+parseLine                    Valid 1                      Test case passed.            2/2       
+parseLine                    Valid 2                      Test case passed.            2/2       
+------------------------------------------------------------------------------------------
+
+Total Score = 60

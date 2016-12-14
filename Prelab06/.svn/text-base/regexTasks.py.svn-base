@@ -1,0 +1,35 @@
+import re
+
+def getWords(sentence, letter):
+    allLetters = re.findall(r"\b{0}\w+\b|\b\w+{0}\b".format(letter), sentence, re.IGNORECASE)
+    notLetters = re.findall(r"\b{0}\w+{0}\b".format(letter), sentence, re.IGNORECASE)
+    resultant = list(set(allLetters)-set(notLetters))
+    resultant.sort()
+    return resultant
+def extractFloats(s):
+    return re.findall(r"\S+\.\S+", s)
+def getUrlParts(url):
+    urlSearch = re.search(r"(?P<domain>www\.\w+\.\w..)/(?P<controller>\w+)/(?P<action>\w+)", url)
+    return urlSearch.groups()
+def getQueryParameters(url):
+    findList = re.findall("((?P<name>\w+)=(?P<result>\S[^&\"]+))", url)
+    return [(x, y) for z,x,y in findList]
+def findFunctions(fileName):
+    funcList = []
+    with open(fileName) as funcFile:
+        all_lines = funcFile.readlines()
+    for line in all_lines:
+      funcParse = re.search("def\s*(?P<funcName>\w+)\s*(?P<arguments>\([\s\S]*\))", line)
+      if funcParse is not None:
+         arguments = funcParse.group(2)
+         funcName = funcParse.group(1)
+         argParse = re.findall("(?P<arg>\w+)", arguments)
+         funcList.append((funcName, argParse))
+    print(funcList)
+if __name__ == "__main__":
+    s = "The tires can tolerate temperatures between -32.5 and 110. That why they cost 149.95 dollars each."
+    tart = "The TART program runs on Tuesdays and Thursdays, but it does not start until next week."
+    url = "http://www.google.com/Math/Constants?Pi=3.14&Max_Int=65536&What_Else=Nothing-Here&stuff=poop"
+    #print(getQueryParameters(url))
+    findFunctions("dummyFile.py")
+   # print(getWords(tart, "s"))

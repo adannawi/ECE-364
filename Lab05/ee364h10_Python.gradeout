@@ -1,0 +1,39 @@
+Lab05/ee364h10
+
+561492873
+
+749358261
+
+382176549
+
+476529318
+
+918637425
+
+235841796
+
+694283157
+
+153764982
+
+827915634
+
+------------------------------------------------------------------------------------------
+FUNCTION                   | DESCRIPTION                | COMMENTS                   | POINTS    
+------------------------------------------------------------------------------------------
+getCallActivity              Count Check Test             Test case passed.            2         
+getCallActivity              Duration Check Test          Test case passed.            5         
+getCallActivity              User 1 Test                  Test case passed.            4         
+getCallActivity              User 2 Test                  Test case passed.            4         
+getCallersOf                 Invalid Number Test          Test case passed.            5         
+getCallersOf                 Valid Number Test            Test case FAILED.            0         
+isColumnPuzzle               Column Puzzle Test           Test case FAILED.            0         
+isColumnPuzzle               Row Puzzle Test              Test case FAILED.            0         
+isValidOutput                'Bad' Solution 1 Test        Test case FAILED.            0         
+isValidOutput                'Bad' Solution 2 Test        Test case FAILED.            0         
+isValidOutput                'Good' Solution Test         Test case FAILED.            0         
+solvePuzzle                  Solve Column Puzzle Test     Function failed to run.      0         
+solvePuzzle                  Solve Row Puzzle Test        Function failed to run.      0         
+------------------------------------------------------------------------------------------
+
+Total Score = 20

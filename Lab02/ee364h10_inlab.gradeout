@@ -1,0 +1,41 @@
+Sorting Processor Performance (40 pts)
+1) Single Argument (1 pts)
+Passed
+2) Exit with return code 1 (2 pts)
+Passed
+3) Non- Existent file (2 pts)
+3a) Non- Existent file error message (1 pts)
+Passed
+3b) Non- Existent file return code 2 (1 pts)
+Passed.
+4) 5 fastest performing CPUs (7 pts)
+Passed.
+5) 3 most efficient CPUs (7 pts)
+Passed.
+6) CPUs that have a cache size of 4, in order of increasing execution time. (7 pts)
+Passed
+7) n slowest CPUs (7 pts)
+Passed
+8) Print to a file called sorted_CPI.txt (7 pts)
+Passed.
+Total Score for Sorting: 40/40
+Treasure Hunt (40 pts)
+1) Single Argument (1 pts)
+Passed.
+2) Exit with return code 1 (2 pts)
+Passed
+3) Finding the treasure (32 pts)
+Failed
+Your Output:
+Expected Output:
+(0,0)
+(0,2)
+(1,0)
+(2,2)
+4) printing the position of treasure (5 pts)
+Failed
+Your Output:
+Expected Output:
+Treasure found at: (2,2)
+Total Score for Treasure: 3/40
+Final Score: 43/80

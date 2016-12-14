@@ -1,0 +1,33 @@
+Lab07/ee364h10
+
+
+------------------------------------------------------------------------------------------
+FUNCTION                   | DESCRIPTION                | COMMENTS                   | POINTS    
+------------------------------------------------------------------------------------------
+course_attributesExist       Final                        Test case passed.            1/1       
+course_attributesExist       First                        Test case passed.            1/1       
+course_attributesExist       ID                           Test case passed.            1/1       
+course_attributesExist       Second                       Test case passed.            1/1       
+course_attributesExist       Total Test 1                 Test case passed.            1/1       
+course_attributesExist       Total Test 2                 Test case passed.            1/1       
+course_initializer                                        Test case passed.            3/3       
+course_letterGrade                                        Test case passed.            3/3       
+course_representation                                     Test case passed.            3/3       
+school_attributesExist       Name                         Test case passed.            2/2       
+school_attributesExist       Students                     Test case passed.            3/3       
+school_initializer                                        Test case passed.            5/5       
+school_loadStudentsInfo      CourseCount                  Test case passed.            5/5       
+school_loadStudentsInfo      LetterGrade                  Test case passed.            5/5       
+school_loadStudentsInfo      StudentCount                 Test case passed.            5/5       
+school_representation                                     Test case passed.            5/5       
+school_saveSchoolInfo                                     Test case FAILED.            0/15      
+student_addCourse            Add                          Test case passed.            2/2       
+student_addCourse            Update                       Test case passed.            2/2       
+student_attributesExist      Courses                      Test case passed.            2/2       
+student_attributesExist      Name                         Test case passed.            2/2       
+student_generateTranscript                                Test case FAILED.            0/4       
+student_initializer                                       Test case passed.            4/4       
+student_representation                                    Test case passed.            4/4       
+------------------------------------------------------------------------------------------
+
+Total Score = 61

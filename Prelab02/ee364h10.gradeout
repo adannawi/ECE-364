@@ -1,0 +1,92 @@
+##########################################
+Grading yards.bash
+Yards.bash Exists
+
+No Parameter Test Case PASSED
+Expected Output: Usage: yards.bash <filename>
+Script Output: Usage: yards.bash <filename>
+Score for section: 0.5/0.5
+
+Non Readable File  Test Case PASSED
+Expected Output: Error: ../fakefile is not readable
+Script Output: Error: ../fakefile is not readable
+Score for section: 0.5/0.5
+
+ACC Case PASSED
+Expected Output: ACC schools averaged 2733 yards receiving with a variance of 501605
+Script Output: ACC schools averaged 2733 yards receiving with a variance of 501605
+Score for section: 1.0/1.0
+
+Big10 Case PASSED
+Expected Output: Big10 schools averaged 2810 yards receiving with a variance of 238178
+Script Output: Big10 schools averaged 2810 yards receiving with a variance of 238178
+Score for section: 1.0/1.0
+
+Big 12 Case PASSED
+Expected Output: Big12 schools averaged 3159 yards receiving with a variance of 893226
+Script Output: Big12 schools averaged 3159 yards receiving with a variance of 893226
+Score for section: 1.0/1.0
+
+BigEast Case PASSED
+Expected Output: BigEast schools averaged 2480 yards receiving with a variance of 117543
+Script Output: BigEast schools averaged 2480 yards receiving with a variance of 117543
+Score for section: 1.0/1.0
+
+Pac10 Case PASSED
+Expected Output: Pac10 schools averaged 2874 yards receiving with a variance of 429584
+Script Output: Pac10 schools averaged 2874 yards receiving with a variance of 429584
+Score for section: 1/1
+
+SEC Case PASSED
+Expected Output: SEC schools averaged 2924 yards receiving with a variance of 472899
+Script Output: SEC schools averaged 2924 yards receiving with a variance of 472899
+Score for section: 1.0/1.0
+
+Largest Average Yardage Case PASSED
+Expected Output: The largest average yardage was 3159
+Script Output: The largest average yardage was 3159
+Score for section: 1.0/1.0
+
+Total score for yards.bash:8.0/8.0
+##########################################
+
+##########################################
+Grading run.bash
+run.bash Exists
+
+Bad Sim File  Test Case PASSED
+Expected Output: error: quick_sim could not be compiled!
+Script Output: error: quick_sim could not be compiled!
+Score for section: 1.0/1.0
+
+Quick Sim Test Case FAILED
+Expected Output: Fastest run time achieved by Intel Core i7 with cache size 32 and issue width 16 was 4368
+Script Output: Fastest run time achieved by Intel Core i7 with a cache size 32 and a issue width 16 was 4368
+Score for section: 0/5.0
+
+Total score for run.bash:1.0/6.0
+##########################################
+
+##########################################
+Grading process_temps.bash
+process_temps.bash Exists
+
+No Parameter Test Case FAILED
+Expected Output: Usage: process_temps.bash <input file>
+Script Output: Usage process_temps.bash <input file>
+Score for section: 0/0.5
+
+No Parameter Test Case FAILED
+Expected Output: Error: ../fakefile is not a readable file.
+Script Output: ../fakefile is not a readable file.
+Score for section: 0/0.5
+Test Cases Passed:
+21.0
+Score for section: 2.5/2.5
+
+Test Cases Passed:
+21.0
+Score for section: 2.5/2.5
+
+Total score for process_temps.bash:5.0/6.0
+##########################################

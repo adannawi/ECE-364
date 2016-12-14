@@ -1,0 +1,23 @@
+#! /bin/bash
+#
+#$Author$
+#$Date$
+#$HeadURL$
+#$Revision$
+
+if (( !"$#" )) 
+then
+echo "Usage: line_num.bash <filename>"
+else
+    if [[ !(-r $1) ]]
+    then
+	echo "File $1 is unreadable!"
+    else
+	COUNTER=1
+	while read line
+	do
+	   echo $COUNTER"."$line
+	   let COUNTER=$COUNTER+1
+	done < $1
+    fi
+fi

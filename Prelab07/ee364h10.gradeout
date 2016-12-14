@@ -1,0 +1,116 @@
+Prelab07/ee364h10/
+
+
+------------------------------------------------------------------------------------------
+FUNCTION                   | DESCRIPTION                | COMMENTS                   | POINTS    
+------------------------------------------------------------------------------------------
+Point3D_cardinalityExists                                 Test case passed.            0.3/0.3   
+Point3D_clone                Identity                     Test case passed.            0.1/0.1   
+Point3D_clone                normalOperation              Test case passed.            0.2/0.2   
+Point3D_coordinatesExists                                 Function failed to run.      0/0.3     
+Point3D_distanceFrom         normalOperation              Test case passed.            0.2/0.2   
+Point3D_distanceFrom         wrongCardinality             Test case passed.            0.1/0.1   
+Point3D_division             Identity                     Test case passed.            0.1/0.1   
+Point3D_division             normalOperation              Test case passed.            0.2/0.2   
+Point3D_equality             Identity                     Test case passed.            0.1/0.1   
+Point3D_equality             normalOperation              Test case passed.            0.1/0.1   
+Point3D_equality             wrongCardinality             Test case passed.            0.1/0.1   
+Point3D_floatAddition        Identity                     Test case passed.            0.1/0.1   
+Point3D_floatAddition        normalOperation1             Test case passed.            0.1/0.1   
+Point3D_floatAddition        normalOperation2             Function failed to run.      0/0.1     
+Point3D_floatSubtraction     Identity                     Test case passed.            0.1/0.1   
+Point3D_floatSubtraction     normalOperation              Test case passed.            0.2/0.2   
+Point3D_greaterThan          normalOperation              Test case passed.            0.2/0.2   
+Point3D_greaterThan          wrongCardinality             Test case passed.            0.1/0.1   
+Point3D_greaterThanOrEqual   normalOperation              Test case passed.            0.2/0.2   
+Point3D_greaterThanOrEqual   wrongCardinality             Test case passed.            0.1/0.1   
+Point3D_hashExists                                        Test case passed.            0.3/0.3   
+Point3D_indexing                                          Test case passed.            0.3/0.3   
+Point3D_inequality           Identity                     Test case passed.            0.1/0.1   
+Point3D_inequality           normalOperation              Test case passed.            0.1/0.1   
+Point3D_inequality           wrongCardinality             Test case passed.            0.1/0.1   
+Point3D_initializer          correct input                Test case passed.            0.075/0.075
+Point3D_initializer          integer input                Test case passed.            0.075/0.075
+Point3D_initializer          list input                   Test case passed.            0.075/0.075
+Point3D_initializer          string input                 Test case passed.            0.075/0.075
+Point3D_lessThan             normalOperation              Test case passed.            0.2/0.2   
+Point3D_lessThan             wrongCardinality             Test case passed.            0.1/0.1   
+Point3D_lessThanOrEqual      normalOperation              Test case passed.            0.2/0.2   
+Point3D_lessThanOrEqual      wrongCardinality             Test case passed.            0.1/0.1   
+Point3D_multiplication       Identity                     Test case passed.            0.1/0.1   
+Point3D_multiplication       normalOperation1             Test case passed.            0.1/0.1   
+Point3D_multiplication       normalOperation2             Function failed to run.      0/0.1     
+Point3D_nearestPoint         emptyList                    Test case passed.            0.1/0.1   
+Point3D_nearestPoint         pointList                    Test case passed.            0.2/0.2   
+Point3D_negation             Identity                     Test case passed.            0.1/0.1   
+Point3D_negation             normalOperation              Test case passed.            0.2/0.2   
+Point3D_pointAddition                                     Function failed to run.      0/0.3     
+Point3D_pointSubtraction                                  Function failed to run.      0/0.3     
+Point3D_printPoint                                        Test case passed.            0.3/0.3   
+Point3D_tupleExists                                       Test case passed.            0.3/0.3   
+PointGroup_Existence                                      Test case passed.            0.5/0.5   
+PointGroup_addPoint          normalOperation              Test case passed.            0.3/0.3   
+PointGroup_addPoint          wrongCardinality             Test case passed.            0.2/0.2   
+PointGroup_cardinalityExists                              Test case passed.            0.5/0.5   
+PointGroup_computeBoundingHyperCube                              Test case passed.            1/1       
+PointGroup_computeNearestNeighbors                              Function failed to run.      0/0.5     
+PointGroup_count                                          Test case passed.            0.5/0.5   
+PointGroup_initializer       correct input                Test case passed.            0.2/0.2   
+PointGroup_initializer       emptyList                    Test case passed.            0.1/0.1   
+PointGroup_initializer       wrongCardinality             Test case passed.            0.1/0.1   
+PointGroup_initializer       wrongKey                     Test case passed.            0.1/0.1   
+PointGroup_membership                                     Test case passed.            0.3/0.3   
+PointGroup_pointAddition     normalOperation              Test case passed.            0.2/0.2   
+PointGroup_pointAddition     wrongCardinality             Test case passed.            0.1/0.1   
+PointGroup_pointSubtraction  missingPoint                 Test case passed.            0.1/0.1   
+PointGroup_pointSubtraction  normalOperation              Test case passed.            0.2/0.2   
+PointND_cardinalityExists                                 Test case passed.            0.5/0.5   
+PointND_clone                Identity                     Test case passed.            0.2/0.2   
+PointND_clone                normalOperation              Test case passed.            0.3/0.3   
+PointND_distanceFrom         normalOperation              Test case passed.            0.3/0.3   
+PointND_distanceFrom         wrongCardinality             Test case passed.            0.2/0.2   
+PointND_division             Identity                     Test case passed.            0.1/0.1   
+PointND_division             normalOperation              Test case passed.            0.2/0.2   
+PointND_equality             Identity                     Test case passed.            0.1/0.1   
+PointND_equality             normalOperation              Test case passed.            0.1/0.1   
+PointND_equality             wrongCardinality             Test case passed.            0.1/0.1   
+PointND_floatAddition        Identity                     Test case passed.            0.1/0.1   
+PointND_floatAddition        normalOperation1             Test case passed.            0.1/0.1   
+PointND_floatAddition        normalOperation2             Function failed to run.      0/0.1     
+PointND_floatSubtraction     Identity                     Test case passed.            0.1/0.1   
+PointND_floatSubtraction     normalOperation              Test case passed.            0.2/0.2   
+PointND_greaterThan          normalOperation              Test case passed.            0.2/0.2   
+PointND_greaterThan          wrongCardinality             Test case passed.            0.1/0.1   
+PointND_greaterThanOrEqual   normalOperation              Test case passed.            0.2/0.2   
+PointND_greaterThanOrEqual   wrongCardinality             Test case passed.            0.1/0.1   
+PointND_hashExists                                        Test case passed.            0.5/0.5   
+PointND_indexing                                          Test case passed.            0.3/0.3   
+PointND_inequality           Identity                     Test case passed.            0.1/0.1   
+PointND_inequality           normalOperation              Test case passed.            0.1/0.1   
+PointND_inequality           wrongCardinality             Test case passed.            0.1/0.1   
+PointND_initializer          correct input                Test case passed.            0.2/0.2   
+PointND_initializer          integer input                Test case passed.            0.1/0.1   
+PointND_initializer          list input                   Test case passed.            0.1/0.1   
+PointND_initializer          string input                 Test case passed.            0.1/0.1   
+PointND_lessThan             normalOperation              Test case passed.            0.2/0.2   
+PointND_lessThan             wrongCardinality             Test case passed.            0.1/0.1   
+PointND_lessThanOrEqual      normalOperation              Test case passed.            0.2/0.2   
+PointND_lessThanOrEqual      wrongCardinality             Test case passed.            0.1/0.1   
+PointND_multiplication       Identity                     Test case passed.            0.1/0.1   
+PointND_multiplication       normalOperation1             Test case passed.            0.1/0.1   
+PointND_multiplication       normalOperation2             Function failed to run.      0/0.1     
+PointND_nearestPoint         emptyList                    Test case passed.            0.2/0.2   
+PointND_nearestPoint         pointList                    Test case passed.            0.3/0.3   
+PointND_negation             Identity                     Test case passed.            0.1/0.1   
+PointND_negation             normalOperation              Test case passed.            0.2/0.2   
+PointND_pointAddition        Identity                     Test case passed.            0.1/0.1   
+PointND_pointAddition        normalOperation              Test case passed.            0.1/0.1   
+PointND_pointAddition        wrongCardinality             Test case FAILED.            0/0.1     
+PointND_pointSubtraction     Identity                     Test case passed.            0.1/0.1   
+PointND_pointSubtraction     normalOperation              Test case passed.            0.1/0.1   
+PointND_pointSubtraction     wrongCardinality             Test case FAILED.            0/0.1     
+PointND_printPoint                                        Test case passed.            0.5/0.5   
+PointND_tupleExists                                       Test case passed.            0.5/0.5   
+------------------------------------------------------------------------------------------
+
+Total Score = 18.0

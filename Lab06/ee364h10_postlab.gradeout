@@ -1,0 +1,28 @@
+Lab06/postlab/ee364h10
+
+Found a catch!
+Found a catch!
+Found a catch!
+
+------------------------------------------------------------------------------------------
+FUNCTION                   | DESCRIPTION                | COMMENTS                   | POINTS    
+------------------------------------------------------------------------------------------
+convertToAttrib                                           Test case FAILED.            0         
+getAuthorOf                  Book 1 Test                  Test case passed.            4         
+getAuthorOf                  Book 2 Test                  Test case passed.            3         
+getAuthorOf                  Invalid Book Test            Test case passed.            3         
+getBookInfo                  Book 1 Test                  Test case passed.            4         
+getBookInfo                  Book 2 Test                  Test case passed.            3         
+getBookInfo                  Invalid Book Test            Test case passed.            3         
+getBooksBelow                Invalid Price Test           Test case passed.            5         
+getBooksBelow                Valid Price Test             Test case passed.            5         
+getBooksBy                   Author 1 Test                Test case passed.            4         
+getBooksBy                   Author 2 Test                Test case passed.            3         
+getBooksBy                   Invalid Author Test          Test case FAILED.            0         
+getGenres                                                 Test case passed.            10        
+searchForWord                Invalid Word Test            Test case passed.            3         
+searchForWord                Word 1 Test                  Test case passed.            4         
+searchForWord                Word 2 Test                  Test case passed.            3         
+------------------------------------------------------------------------------------------
+
+Total Score = 57

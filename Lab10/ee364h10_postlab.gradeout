@@ -1,0 +1,81 @@
+Lab10/postlab/ee364h10
+
+['George', 'Clooney', '414 Second St.', 'Some City', 'CA', '10001', 'clooney@nowhere.com']
+['George', 'Clooney', '414 Second St.', 'Some City', 'CA', '10001', 'clooney@nowhere.com']
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+	<FirstName>George</FirstName>
+	<LastName>Clooney</LastName>
+	<Address>414 Second St.</Address>
+	<City>Some City</City>
+	<State>CA</State>
+	<ZIP>10001</ZIP>
+	<Email>clooney@nowhere.com</Email>
+</user>
+['George', 'Clooney', '414 Second St.', 'Some City', 'CA', '10001', 'clooney@nowhere.com']
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+	<FirstName>Amal</FirstName>
+	<LastName>Alamuddin</LastName>
+	<Address>909 Second St.</Address>
+	<City>Irvine</City>
+	<State>TX</State>
+	<ZIP>56489</ZIP>
+	<Email>amal@hereAndThere.com</Email>
+</user>
+['Michael', '', '6061 End Rd.', '', 'IN', '91919', 'm2m1@hotmail.com']
+['Michael', '', '6061 End Rd.', '', 'IN', '91919', 'm2m1@hotmail.com']
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+	<FirstName>Michael</FirstName>
+	<LastName>Jackson</LastName>
+	<Address>6061 End Rd.</Address>
+	<City>Los Angeles</City>
+	<State>IN</State>
+	<ZIP>91919</ZIP>
+	<Email>m2m1@hotmail.com</Email>
+</user>
+['Michael', '', '6061 End Rd.', '', 'IN', '91919', 'm2m1@hotmail.com']
+['Someone', 'Famous', '1 Best Way', 'Utopia', 'XE', 'Howdy', '@.com']
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+	<FirstName>Someone</FirstName>
+	<LastName>Famous</LastName>
+	<Address>1 Best Way</Address>
+	<City>Utopia</City>
+	<State>NY</State>
+	<ZIP>20201</ZIP>
+	<Email>someone@famous.com</Email>
+</user>
+['Someone', 'Famous', '1 Best Way', 'Utopia', 'XE', 'Howdy', '@.com']
+['Someone', 'Famous', '1 Best Way', 'Utopia', 'XE', 'Howdy', '@.com']
+hi!
+
+----------------------------------------------------------------------------------------------------
+FUNCTION                              | DESCRIPTION                | COMMENTS                   | POINTS    
+----------------------------------------------------------------------------------------------------
+ClearForm                              Error Label Cleared          Test case passed.            5/5       
+ClearForm                              Load Enabled                 Test case passed.            5/5       
+ClearForm                              QLineEdits Cleared           Test case passed.            5/5       
+ClearForm                              Save Disabled                Test case passed.            5/5       
+LoadValidData                          Data Loaded                  Test case passed.            5/5       
+LoadValidData                          Error Label Cleared          Test case passed.            5/5       
+LoadValidData                          Load Disabled                Test case passed.            5/5       
+LoadValidData                          Save Enabled                 Test case passed.            5/5       
+SaveValidDataDirect                                                 Test case FAILED.            0/5       
+SaveValidDataModified                                               Test case FAILED.            0/5       
+SaveWithEmptyEntries                   Error Displayed              Test case passed.            3/3       
+SaveWithEmptyEntries                   Target File Not Created      Test case passed.            2/2       
+SaveWithEmptyEntriesFixed              Error Label Cleared          Test case passed.            2/2       
+SaveWithEmptyEntriesFixed              Target File Contents Correct Test case FAILED.            0/3       
+SaveWithEmptyEntriesPartialFixed       Error Displayed              Test case passed.            3/3       
+SaveWithEmptyEntriesPartialFixed       Target File Not Created      Test case passed.            2/2       
+SaveWithInvalidEntriesAllFixed         Error Label Cleared          Test case passed.            2/2       
+SaveWithInvalidEntriesAllFixed         Target File Contents Correct Test case FAILED.            0/3       
+SaveWithInvalidEntriesStateAndZipFixed Error Displayed              Test case passed.            3/3       
+SaveWithInvalidEntriesStateAndZipFixed Target File Not Created      Test case passed.            2/2       
+SaveWithInvalidEntriesStateFixed       Error Displayed              Test case passed.            3/3       
+SaveWithInvalidEntriesStateFixed       Target File Not Created      Test case passed.            2/2       
+----------------------------------------------------------------------------------------------------
+
+Total Score = 64

@@ -1,0 +1,43 @@
+#! /bin/bash
+
+# $Author$
+# $Date$
+
+function func_a 
+{
+    # Fill out your answer here.
+    count=0
+    ls *.sud | wc - l
+    return
+}
+
+function func_b
+{
+    diff --brief "foo1.txt" "foo2.txt"
+    return
+}
+
+function func_c 
+{
+    # Fill out your answer here
+    return
+}
+
+function func_d 
+{
+    # Fill out your answer here
+    return 
+}
+
+function func_e
+{
+    # Fill out your answer here
+    return
+}
+
+#
+# To test your function, you can call it below like this:
+#
+ func_a
+func_b
+#

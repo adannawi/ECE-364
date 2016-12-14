@@ -1,0 +1,43 @@
+########################
+ee364h10/sum.bash
+########################
+
+GOT OUTPUT:                                                     EXPECTED OUTPUT:
+Result is 566						      |	566
+Points earned(out of 2): 2
+Passed
+Points: 2
+########################
+ee364h10/exist.bash
+########################
+
+Passed
+Points: 1
+########################
+ee364h10/line_num.bash
+########################
+
+Passed
+Points: 2
+########################
+ee364h10/check_file.bash
+########################
+
+Passed
+Passed
+Passed
+Points: 5
+########################
+ee364h10/svncheck.bash
+########################
+
+Passed
+Points: 5
+########################
+ee364h10/sensor_sum.sh
+########################
+
+Passed
+Points: 5
+
+Total Score: 20/20

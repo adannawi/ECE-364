@@ -1,0 +1,15 @@
+#! /bin/bash
+#
+#$Author$
+#$Date$
+#$HeadURL$
+#$Revision$
+
+while read line
+do
+  svn status $line
+  
+
+
+
+done < file_list
